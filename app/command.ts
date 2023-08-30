@@ -7,6 +7,8 @@ interface Commands {
   mask?: Command;
 }
 
+
+
 export function useCommand(commands: Commands = {}) {
   const [searchParams, setSearchParams] = useSearchParams();
 
